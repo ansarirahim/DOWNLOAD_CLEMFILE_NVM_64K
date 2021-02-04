@@ -1,0 +1,4 @@
+#!/bin/bash
+#5000 us delay is hardcoded
+/root/CLEM_Files/downloadClemFile_only_NVM_64k /root/PROGRAM/CLemFile/"$@"
+echo "ACK"
